@@ -2,3 +2,27 @@
 @import 'base/_variables.css';
 @import 'base/_mixins.css';
 @import 'base/_global.css';
+
+body {
+  display: flex;
+  align-content: center;
+}
+
+canvas {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+h1 {
+  z-index: 1;
+  margin: auto;
+  font-size: 10rem;
+  text-align: center;
+  text-transform: uppercase;
+  /*filter: blur(.5rem);*/
+  background: -webkit-linear-gradient(#eee, red);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-blend-mode: multiply;
+}
